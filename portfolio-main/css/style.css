@@ -30,7 +30,6 @@ body {
 
 }
 
-
 .container p span.cursor {
   display: inline-block;
   background-color: #ccc;
@@ -253,6 +252,7 @@ body {
 #sobre img {
   height: auto;
   width: 450px;
+  margin-bottom: 1em;
 }
 .sobre-texto {
   width: 300px;
