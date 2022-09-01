@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <!--  Css -->
+    <!---->
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Link para os icones  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="background">
+      <header>
+        <div class="menu">
+          <div>
+            <h2 id="logo">
+              Portifo<span class="cor-text-secundario">lio</span>
+            </h2>
+          </div>
+
+          <nav>
+            <ul class="nav-list">
+              <li><a href="#sobre">Quem Sou</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#frases">Frase</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="boas-vindas">
+        
+        <h4 class="cor-text-secundario">Olá, sou</h4>
+        <h1 id="txt">
+          <p>Matheus <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+       </h1>
+        <h3>Que tal um café ? ☕</h3 >
+        <div>
+        </div>
+          <a href="https://www.linkedin.com/in/matheus-claubert-8613b0152"target="_blank" rel="external" class="btn">Linkedin</a>
+          <a href="https://github.com/MatheusClaubert"target="_blank" rel="external" class="btn">Github</a>
+          <a href="https://contate.me/dev-matheusclaubert"target="_blank" rel="external" class="btn">Whatsapp</a>
+        </div>
+      </div>
+    </div>
+    <!-- Fim do background-->
+
+    <!-- Seção SOBRE MIM ------------------- -->
+    <section id="sobre">
+      <div class="main">
+        <figure>
+          <img src="imagens/eu.jpg" alt="" style="border-radius: 1em" />
+        </figure>
+
+        <div class="sobre-texto">
+          <h2>Sobre Mim</h2>
+          <h5>
+            Programador <span class="cor-text-secundario">& Estudante</span>
+          </h5>
+          <p>
+            Developer, com conhecimentos em HTML, CSS, JavaScript, Express, NodeJs 
+            React.js, consumo de APIs Rest Sou apaixonado por tecnologia, desenvolvimento, 
+            jogos e musicas. Tenho muita sede por aprendizado e estou diariamente me colocando em desafios para evoluir meu aprendizado
+          </p>
+          <a href="curriculo/MatheusClaubert.pdf" class="btn">
+            <i class="fa-solid fa-download"></i>
+            Download Curriculo</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços  -->
+    <section class="servico" id="projetos">
+      <header class="titulo">
+        <h2>Meus Projetos</h2>
+      </header>
+
+      <!--  Cards -->
+      <div class="box">
+        <!-- card -->
+        <div class="card">
+          <i class="fa-regular fa-window-maximize"></i>
+          <h5>Formulário Dartsiders</h5>
+          <p>
+            Primeiro formulário simples como prática de estudo.
+          </p>
+
+          <div>
+            <a href="https://cranky-liskov-458692.netlify.app/"target="_blank" rel="external" class="btn"
+              >Visualizar</a
+            >
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <i class="fa-regular fa-window-maximize"></i>
+          <h5>Dartsiders CRUD</h5>
+          <p>
+            Crud pessoal utilizando NodeJs, Express e MongoDb.
+          </p>
+          <div>
+            <a href="https://crud-dartsiders.herokuapp.com/"target="_blank" rel="external"class="btn"
+              >Visualizar</a
+            >
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <i class="fa-regular fa-window-maximize"></i>
+          <h5>Pokédex Pokemon</h5>
+          <p>
+            Pokédex em fase de construção. (Em breve disponível)
+          </p>
+
+          <div>
+            <a class="btn">Indisponível</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!--  Frase  -->
+    <section class="frase" id="frases">
+      <p id="aspas">
+        <i class="fa-solid fa-quote-left cor-text-secundario"></i>
+      </p>
+      <p id="texto">Você pode criar qualquer coisa: basta escrever.</p>
+    </section>
+ 
+    <!--  Rodape -->
+    <footer>
+      <p>Copyright © 2022 Matheus Claubert</p>
+      <p>Todos os direitos reservados</p>
+    </footer>
+    <div>
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
